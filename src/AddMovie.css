@@ -1,0 +1,40 @@
+.AddMovie {
+    background-color: gainsboro;
+    width: 500px;
+    padding: 20px;
+    /*  */
+    margin-top: 70px;
+}
+
+.AddMovie form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AddMovie form label {
+    /* margin: 3px 0px; */
+    font-weight: bold;
+}
+
+.AddMovie form input {
+    margin: 6px 0px;
+    padding: 0px 10px;
+    width: 95%;
+    height: 30px;
+}
+
+.AddMovie form button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .AddMovie {
+        background-color: gainsboro;
+        width: 300px;
+        padding: 20px;
+        /*  */
+        margin-top: 70px;
+    }
+}

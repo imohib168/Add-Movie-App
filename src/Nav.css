@@ -1,0 +1,16 @@
+.Nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(212, 198, 198);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.Nav p {
+    text-align: center;
+}
