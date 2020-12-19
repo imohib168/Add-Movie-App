@@ -18,7 +18,6 @@ function AddMovie() {
             price: price,
         }])
 
-        setName("");
         setMovieName("");
         setPrice("0");
     }
