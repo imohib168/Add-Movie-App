@@ -4,7 +4,6 @@ import './AddMovie.css'
 
 function AddMovie() {
 
-    const [name, setName] = useState("");
     const [movieName, setMovieName] = useState("");
     const [price, setPrice] = useState(0);
     const [movies, setMovies] = useContext(MovieContext);
